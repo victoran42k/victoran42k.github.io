@@ -5,7 +5,7 @@ permalink: /lyra/privacy/
 
 # Lyra privacy policy
 
-**Effective date:** 18 November 2026
+**Effective date:** 19 November 2026
 
 Lyra is an app for practising spoken English. Your practice is private, so Lyra is built to
 keep it on your phone. This policy explains, in plain words, what Lyra stores, where it is
@@ -24,8 +24,8 @@ stored, and what the app connects to.
   a credit. To get more credits you can tap **Watch a short ad**. Only then does Lyra contact
   Google's ad service (AdMob). The ads aren't personalised, and Lyra never gives Google what you
   say or your progress. See "Ads" below.
-- **Lyra goes online only when you tap:** to download its optional AI parts, or to watch an
-  ad. Both are explained below.
+- **Lyra goes online only when you tap:** to download Lyra's brain, or to watch an ad. Both
+  are explained below.
 
 ## What Lyra keeps on your phone
 
@@ -34,9 +34,9 @@ stored, and what the app connects to.
 | Your course choice: what you're learning English for, and your level | To start you in the right place | App storage on the phone |
 | Your progress: lessons finished, the days you practised (your streak), and how many seconds you spoke each day | To show your progress | App storage on the phone |
 | Your credits: how many you have, and how many ads you've watched today | To let you start activities, and to limit ads to 10 a day | App storage on the phone |
-| Your voice choice (which of Lyra's voices you picked) | To use the same voice next time | App storage on the phone |
+| Your voice choice (which of your phone's voices Lyra uses) | To use the same voice next time | App storage on the phone |
 | Download and set-up records (which AI files are complete, and whether your phone's graphics chip passed Lyra's self-test) | So Lyra doesn't re-check or re-download files | App storage on the phone |
-| The AI parts: Lyra's brain, voice and ears (see below) | To run the tutor on the phone | App storage on the phone |
+| The AI parts: Lyra's brain and ears (see below) | To run the tutor on the phone | App storage on the phone |
 
 **What Lyra doesn't keep:**
 
@@ -44,6 +44,9 @@ stored, and what the app connects to.
   into text, and is then thrown away. It is never saved.
 - **Conversations.** What you say and what Lyra replies in Talk, role-plays and lessons stay
   on screen while you're there. They are not saved when you leave.
+- **Speeches.** In the Speaking club, your speech is turned into text on the phone, and its
+  report (your time, pace, filler words and Lyra's corrections) is worked out on the phone.
+  The speech, its text and the report are gone when you leave the session.
 
 Your progress holds no words, transcripts or audio, just which lessons you finished, the dates
 you practised and how many seconds you spoke each day.
@@ -57,35 +60,36 @@ to Lyra instead.
 
 ## What's built in, and what's downloaded
 
-Lyra's tutor runs on your phone. Some of its parts come with the app, and two optional parts
-are downloaded later, only if you choose to.
+Lyra's tutor runs on your phone. Some of its parts come with the app, and one optional part
+is downloaded later, only if you choose to.
 
 | Part | What it does | How you get it | From |
 | --- | --- | --- | --- |
 | **Lyra's ears**: NVIDIA Parakeet speech recognition (about 130 MB) | Turns your speech into text, mistakes and all | Comes with the app from Google Play | Google Play |
 | **Lyra's brain**: Google Gemma 4 E2B (about 3.2 GB) | Talks with you and suggests corrections | **Optional download**, started by you in Setup | Hugging Face (huggingface.co) |
-| **Lyra's voice**: Kokoro-82M (about 334 MB) | Reads Lyra's replies aloud in a natural voice | **Optional download**, started by you in Setup | GitHub (github.com) |
+| **Lyra's voice**: your phone's own text-to-speech | Reads Lyra's words aloud | Already on your phone; Lyra uses only a voice that runs on the phone | Your phone |
 
 **About the downloads:**
 
 - Nothing downloads by itself. Each download starts only when you tap it, after Lyra shows
   you its size.
-- These are ordinary file downloads. Like any website, Hugging Face and GitHub see the usual
-  details of the request: your IP address, the file being fetched, and basic technical
-  details of the connection.
+- It is an ordinary file download. Like any website, Hugging Face sees the usual details of
+  the request: your IP address, the file being fetched, and basic technical details of the
+  connection.
 - Lyra sends them nothing else. Nothing about you or your practice goes with the request.
-- Those services handle requests under their own privacy policies:
-  - Hugging Face: <https://huggingface.co/privacy>
-  - GitHub: <https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>
+- Hugging Face handles requests under its own privacy policy: <https://huggingface.co/privacy>
 - Once the files are on your phone, Lyra uses them without going online.
+- **Lyra's voice** is your phone's own text-to-speech. Lyra only uses a voice that runs on the
+  phone, so what Lyra says isn't sent anywhere. Your phone's speech service may update its
+  own voices from its maker from time to time, as it does for every app; that carries nothing
+  from Lyra.
 
 On phones with less than 6 GB of memory, the brain isn't offered at all. Lessons and drills
 work fully without it.
 
-**Without Lyra's voice:** if you haven't downloaded Lyra's voice, your phone's own
-text-to-speech engine reads Lyra's replies aloud. That engine is part of Android or of an app
-on your phone, not part of Lyra. Its settings and policies are your phone maker's or that
-app's.
+**If your phone has no voice that works offline,** Lyra shows its words on screen instead,
+and Setup says why. The text-to-speech engine is part of Android or of an app on your phone,
+not part of Lyra. Its settings and policies are your phone maker's or that app's.
 
 ## Ads
 
@@ -117,17 +121,18 @@ up. Lyra limits what goes along:
 
 - **The AI parts are never backed up.** They are far too large, and they can be downloaded
   again.
-- **Your progress and course choice are not backed up to your Google account** (cloud backup).
-- **On Android 12 and newer,** your progress and course choice *do* move to your new phone if
-  you copy your apps directly from your old phone to the new one (device-to-device transfer).
-  Nothing goes through a server you don't control for this.
-- **On Android 11 and older,** your progress and course choice are not included in either kind
-  of backup.
+- **Your progress, course choice and credits are not backed up to your Google account** (cloud
+  backup).
+- **On Android 12 and newer,** your progress, course choice and credits *do* move to your new
+  phone if you copy your apps directly from your old phone to the new one (device-to-device
+  transfer). Nothing goes through a server you don't control for this.
+- **On Android 11 and older,** your progress, course choice and credits are not included in
+  either kind of backup.
 - **Your voice choice, and Lyra's small download and set-up records,** are settings that
   Android may include in a normal backup. They say nothing about your practice.
 
 This means that if you uninstall Lyra, or restore a phone from a Google backup, your progress
-starts again from nothing.
+starts again from nothing, and you start again with 3 credits.
 
 ## Deleting your data
 
@@ -139,7 +144,7 @@ All of Lyra's data is on your phone, so you can delete it yourself at any time:
   Lyra again from the first question. The downloaded AI parts and your credits stay.
 - **Your credits** are removed only when you uninstall Lyra or clear its storage in Android's
   settings; you then start again with 3.
-- **Delete** (Setup → Lyra's brain, or Lyra's voice) removes that download and frees the space.
+- **Delete** (Setup → Lyra's brain) removes that download and frees the space.
 - **Uninstalling Lyra** removes everything it stored on the phone.
 
 We have no copy of any of it, so there's nothing for us to delete and no request to send.
